@@ -7,7 +7,7 @@ public class Main
 {
     public static void s1() throws MalformedURLException, FileNotFoundException, IOException,Exception
     {
-        // TODO code application logic here
+        //TODO code application logic here
     	stopWords sWinstance = new stopWords();
     	sWinstance.readStopWords();
     	sWinstance.removeStopWords();
